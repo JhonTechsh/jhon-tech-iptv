@@ -4,27 +4,23 @@
 <meta charset="UTF-8">
 <title>PC IPTV</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="header"><div class="container">
-<div class="logo"><span>Jhon Tech IPTV</span></div>
-<nav class="menu"><a href="index.html">Início</a></nav>
-</div></header>
+<header>
+  <div class="header-container">
+    <div class="logo">Jhon Tech IPTV</div>
+    <nav><a href="index.html">Início</a></nav>
+  </div>
+</header>
 
-<section class="hero"><h1>💻 PC / Notebook</h1></section>
-
-<section class="cards">
-<div class="card">
-<h3>VLC Media Player</h3>
-<p>Mídia → Abrir URL → Colar link M3U → Reproduzir</p>
-</div>
-
-<div class="card">
-<h3>Web Player</h3>
-<p>Acessar link fornecido → Login → Assistir</p>
-</div>
+<section>
+  <h1>PC / Notebook</h1>
+  <ul>
+    <li>VLC Media Player (lista M3U)</li>
+    <li>Web Player (login no navegador)</li>
+  </ul>
 </section>
 
 <footer>© 2026 Jhon Tech IPTV</footer>
