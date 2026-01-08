@@ -175,4 +175,13 @@ footer {
   .menu a {
     margin-left: 0;
   }
+  
+.logo svg {
+  filter: drop-shadow(0 0 12px #00e5ff);
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00e5ff;
 }
