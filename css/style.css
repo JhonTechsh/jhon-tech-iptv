@@ -143,3 +143,24 @@ footer {
   opacity: 0.7;
   font-size: 12px;
 }
+.app-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.logo-smarters {
+  background: linear-gradient(135deg, #00e5ff, #0066ff);
+}
+
+.logo-xciptv {
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+}
