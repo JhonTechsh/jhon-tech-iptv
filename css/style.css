@@ -1,117 +1,77 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jhon Tech IPTV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #050510;
-  color: #ffffff;
-}
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
 
-/* HEADER */
-.header {
-  background: #060b23;
-  border-bottom: 3px solid #00e5ff;
-}
+    <!-- LOGO -->
+    <div class="logo">
+      <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="18" width="80" height="64" rx="20" fill="#00e5ff"/>
+        <circle cx="40" cy="50" r="6" fill="#050510"/>
+        <circle cx="60" cy="50" r="6" fill="#050510"/>
+        <rect x="42" y="64" width="16" height="4" rx="2" fill="#050510"/>
+      </svg>
+      <span>Jhon Tech IPTV</span>
+    </div>
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
+    <!-- MENU -->
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="android.html">Android</a>
+      <a href="iphone.html">iPhone</a>
+      <a href="https://wa.me/5598981797139" target="_blank" class="btn">WhatsApp</a>
+    </nav>
 
-/* LOGO */
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+  </div>
+</header>
 
-.logo span {
-  font-size: 20px;
-  font-weight: bold;
-  color: #00e5ff;
-}
+<!-- HERO -->
+<section class="hero">
+  <h1>Central Profissional de IPTV</h1>
+  <p>
+    Tutoriais oficiais e suporte profissional para clientes
+    e revendedores da Jhon Tech.
+  </p>
+</section>
 
-/* MENU */
-.menu {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
+<!-- CARDS -->
+<section class="cards">
 
-.menu a {
-  color: #ffffff;
-  text-decoration: none;
-}
+  <div class="card">
+    <h3>📱 Android</h3>
+    <p>IPTV Smarters e XCIPTV</p>
+    <a href="android.html" class="btn">Ver tutorial</a>
+  </div>
 
-.menu .btn {
-  background: #00e5ff;
-  color: #000;
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-weight: bold;
-}
+  <div class="card">
+    <h3>🍎 iPhone (iOS)</h3>
+    <p>IPTV Smarters e GSE Smart IPTV</p>
+    <a href="iphone.html" class="btn">Ver tutorial</a>
+  </div>
 
-/* HERO */
-.hero {
-  padding: 70px 20px;
-  text-align: center;
-  background: radial-gradient(circle at top, #0d1b3d, #050510);
-}
+  <div class="card">
+    <h3>🤝 Revendedores</h3>
+    <p>Ganhos recorrentes e suporte dedicado</p>
+    <a href="https://wa.me/5598981797139" target="_blank" class="btn">
+      Quero revender
+    </a>
+  </div>
 
-.hero h1 {
-  color: #00e5ff;
-}
+</section>
 
-.hero p {
-  max-width: 700px;
-  margin: 15px auto;
-  color: #ccc;
-}
+<!-- FOOTER -->
+<footer>
+  © 2026 Jhon Tech IPTV · Todos os direitos reservados
+</footer>
 
-.hero .btn {
-  display: inline-block;
-  margin-top: 20px;
-}
-
-/* CARDS */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px 20px;
-}
-
-.card {
-  background: #0a1233;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #00e5ff22;
-}
-
-.card h3 {
-  color: #00e5ff;
-}
-
-.card p {
-  color: #ccc;
-}
-
-.card .btn {
-  margin-top: 15px;
-  display: inline-block;
-}
-
-/* FOOTER */
-footer {
-  background: #060b23;
-  text-align: center;
-  padding: 15px;
-  color: #888;
-}
+</body>
+</html>
