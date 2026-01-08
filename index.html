@@ -1,120 +1,68 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #0b0f1a;
-  color: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Jhon Tech IPTV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  background: linear-gradient(90deg, #0f1733, #0a1f3a);
-  padding: 18px;
-  border-bottom: 3px solid #00e5ff;
-}
+<header>
+  <div class="header-container">
+    <div class="logo">Jhon Tech IPTV</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="android.html">Tutoriais</a>
+      <a href="#planos">Planos</a>
+      <a href="#revenda">Revenda</a>
+      <a href="https://wa.me/5598981797139" target="_blank">WhatsApp</a>
+    </nav>
+  </div>
+</header>
 
-.header-container {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
+<section class="hero">
+  <h1>IPTV Profissional com Qualidade e Estabilidade</h1>
+  <p>Planos acessíveis para clientes finais e oportunidade real para revendedores.</p>
+</section>
 
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-  color: #00e5ff;
-}
+<section id="planos">
+  <h2>Planos para Clientes</h2>
 
-nav a {
-  color: #ffffff;
-  margin-left: 16px;
-  text-decoration: none;
-  font-weight: bold;
-}
+  <div class="cards">
+    <div class="card">
+      <h3>Plano Mensal</h3>
+      <div class="price">R$ 30,00</div>
+      <a href="https://wa.me/5598981797139?text=Olá,%20quero%20o%20PLANO%20MENSAL%20de%20R$30,00" target="_blank">Contratar</a>
+    </div>
 
-nav a:hover {
-  color: #00e5ff;
-}
+    <div class="card">
+      <h3>Plano 6 Meses</h3>
+      <div class="price">R$ 160,00</div>
+      <a href="https://wa.me/5598981797139?text=Olá,%20quero%20o%20PLANO%206%20MESES%20de%20R$160,00" target="_blank">Contratar</a>
+    </div>
 
-.hero {
-  text-align: center;
-  padding: 70px 20px;
-  background: radial-gradient(circle at top, #12245c, #0b0f1a);
-}
+    <div class="card">
+      <h3>Plano Anual</h3>
+      <div class="price">R$ 280,00</div>
+      <a href="https://wa.me/5598981797139?text=Olá,%20quero%20o%20PLANO%20ANUAL%20de%20R$280,00" target="_blank">Contratar</a>
+    </div>
+  </div>
+</section>
 
-.hero h1 {
-  color: #00e5ff;
-  font-size: 32px;
-}
+<section id="revenda">
+  <h2>Revenda IPTV</h2>
 
-.hero p {
-  max-width: 800px;
-  margin: auto;
-  color: #ccc;
-  font-size: 18px;
-}
+  <div class="cards">
+    <div class="card">
+      <h3>Painel Pós-Pago</h3>
+      <p>R$ 6,00 por login ativo</p>
+      <p>✔ Sem taxa de adesão<br>✔ Painel profissional<br>✔ Suporte</p>
+      <a href="https://wa.me/5598981797139?text=Olá,%20quero%20SER%20REVENDEDOR%20IPTV" target="_blank">Quero revender</a>
+    </div>
+  </div>
+</section>
 
-section {
-  padding: 50px 20px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-h2 {
-  color: #00e5ff;
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
-}
-
-.card {
-  background: #151b34;
-  padding: 25px;
-  border-radius: 10px;
-  border: 1px solid #00e5ff33;
-}
-
-.card h3 {
-  color: #00e5ff;
-}
-
-.card p {
-  color: #ccc;
-  line-height: 1.6;
-}
-
-.card .price {
-  font-size: 26px;
-  font-weight: bold;
-  margin: 15px 0;
-}
-
-.card a {
-  display: block;
-  text-align: center;
-  margin-top: 15px;
-  background: #00e5ff;
-  color: #000;
-  padding: 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.card a:hover {
-  background: #00bcd4;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #0f1733;
-  color: #aaa;
-  margin-top: 40px;
-}
+<footer>© 2026 Jhon Tech IPTV</footer>
+</body>
+</html>
