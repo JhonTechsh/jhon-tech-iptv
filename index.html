@@ -4,142 +4,75 @@
   <meta charset="UTF-8">
   <title>Jhon Tech IPTV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO -->
-  <meta name="description" content="Jhon Tech IPTV - Tutoriais profissionais, suporte e estrutura para clientes e revendedores.">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-<!-- HEADER COM LOGO E MASCOTE -->
-<header style="background:#060b23;border-bottom:2px solid #00e5ff;">
-  <div style="
-    max-width:1200px;
-    margin:auto;
-    padding:15px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-  ">
+<body style="margin:0;font-family:Arial,Helvetica,sans-serif;background:#050510;color:#fff;">
 
-    <!-- LOGO INLINE (NÃO DEPENDE DE IMAGEM) -->
-    <a href="index.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;">
+<!-- HEADER -->
+<div style="background:#060b23;border-bottom:3px solid #00e5ff;">
+  <div style="max-width:1200px;margin:auto;padding:15px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;">
+
+    <!-- LOGO (FORÇADA) -->
+    <div style="display:flex;align-items:center;gap:12px;">
       
-      <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <!-- CABEÇA -->
-        <rect x="10" y="18" width="80" height="64" rx="20" fill="#00e5ff"/>
+      <svg width="80" height="80" viewBox="0 0 100 100"
+           xmlns="http://www.w3.org/2000/svg"
+           style="background:#00e5ff;border-radius:20px;">
 
         <!-- OLHOS -->
-        <circle cx="40" cy="50" r="6" fill="#050510"/>
-        <circle cx="60" cy="50" r="6" fill="#050510"/>
+        <circle cx="40" cy="45" r="6" fill="#050510"/>
+        <circle cx="60" cy="45" r="6" fill="#050510"/>
 
         <!-- BOCA -->
-        <rect x="42" y="64" width="16" height="4" rx="2" fill="#050510"/>
+        <rect x="42" y="62" width="16" height="4" rx="2" fill="#050510"/>
 
         <!-- ANTENAS -->
-        <line x1="35" y1="18" x2="28" y2="5" stroke="#00e5ff" stroke-width="5"/>
-        <line x1="65" y1="18" x2="72" y2="5" stroke="#00e5ff" stroke-width="5"/>
-        <circle cx="28" cy="5" r="5" fill="#00e5ff"/>
-        <circle cx="72" cy="5" r="5" fill="#00e5ff"/>
+        <line x1="35" y1="0" x2="28" y2="15" stroke="#050510" stroke-width="4"/>
+        <line x1="65" y1="0" x2="72" y2="15" stroke="#050510" stroke-width="4"/>
+        <circle cx="28" cy="15" r="4" fill="#050510"/>
+        <circle cx="72" cy="15" r="4" fill="#050510"/>
+
       </svg>
 
-      <span style="
-        font-size:20px;
-        font-weight:bold;
-        color:#00e5ff;
-        font-family:Arial, sans-serif;
-      ">
-        Jhon Tech IPTV
-      </span>
-    </a>
+      <div>
+        <div style="font-size:22px;font-weight:bold;color:#00e5ff;">
+          Jhon Tech IPTV
+        </div>
+        <div style="font-size:12px;color:#b8eaff;">
+          Tutoriais & Suporte Profissional
+        </div>
+      </div>
+    </div>
 
     <!-- MENU -->
-    <nav style="display:flex;gap:15px;flex-wrap:wrap;">
-      <a href="index.html" style="color:#fff;text-decoration:none;">Início</a>
-      <a href="android.html" style="color:#fff;text-decoration:none;">Android</a>
-      <a href="smarttv.html" style="color:#fff;text-decoration:none;">Smart TV</a>
-      <a href="pc.html" style="color:#fff;text-decoration:none;">PC</a>
+    <div style="display:flex;gap:15px;margin-top:10px;">
+      <a href="#" style="color:#fff;text-decoration:none;">Início</a>
+      <a href="#" style="color:#fff;text-decoration:none;">Android</a>
+      <a href="#" style="color:#fff;text-decoration:none;">Smart TV</a>
+      <a href="#" style="color:#fff;text-decoration:none;">PC</a>
       <a href="https://wa.me/5598981797139"
          target="_blank"
-         style="
-           background:#00e5ff;
-           color:#000;
-           padding:8px 14px;
-           border-radius:6px;
-           font-weight:bold;
-           text-decoration:none;
-         ">
+         style="background:#00e5ff;color:#000;padding:8px 14px;border-radius:6px;font-weight:bold;text-decoration:none;">
         WhatsApp
       </a>
-    </nav>
+    </div>
 
   </div>
-</header>
+</div>
 
-<!-- HERO -->
-<section class="hero">
-  <h1>Central Profissional de IPTV</h1>
-  <p>
-    Tutoriais claros, suporte confiável e estrutura completa
-    para clientes e revendedores da Jhon Tech.
+<!-- CONTEÚDO -->
+<div style="padding:60px 20px;text-align:center;">
+  <h1 style="color:#00e5ff;">Central Profissional Jhon Tech IPTV</h1>
+  <p style="max-width:700px;margin:auto;color:#ccc;">
+    Este é o layout base profissional com logo e mascote embutidos,
+    funcionando independentemente de CSS externo.
   </p>
-  <a href="https://wa.me/5598981797139" class="btn" target="_blank">
-    Falar com o suporte
-  </a>
-</section>
-
-<!-- CARDS -->
-<section class="cards">
-
-  <div class="card">
-    <h3>📱 Android</h3>
-    <p>
-      Tutoriais completos para celular, TV Box e Android TV.
-    </p>
-    <a href="android.html" class="btn">
-      Acessar tutoriais Android
-    </a>
-  </div>
-
-  <div class="card">
-    <h3>📺 Smart TV</h3>
-    <p>
-      Samsung, LG, TCL e Philips com passo a passo detalhado.
-    </p>
-    <a href="smarttv.html" class="btn">
-      Ver tutoriais Smart TV
-    </a>
-  </div>
-
-  <div class="card">
-    <h3>💻 PC / Notebook</h3>
-    <p>
-      Instalação IPTV no Windows e Mac usando VLC e Web Player.
-    </p>
-    <a href="pc.html" class="btn">
-      Acessar tutoriais PC
-    </a>
-  </div>
-
-  <div class="card">
-    <h3>🤝 Revendedores</h3>
-    <p>
-      Trabalhe com IPTV, ganhos recorrentes e suporte dedicado.
-    </p>
-    <a href="https://wa.me/5598981797139" class="btn" target="_blank">
-      Quero ser revendedor
-    </a>
-  </div>
-
-</section>
+</div>
 
 <!-- FOOTER -->
-<footer>
+<div style="background:#060b23;text-align:center;padding:15px;color:#888;">
   © 2026 Jhon Tech IPTV · Todos os direitos reservados
-</footer>
+</div>
 
 </body>
 </html>
