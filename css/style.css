@@ -1,77 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Jhon Tech IPTV</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<title>PC IPTV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header">
-  <div class="container">
+<header class="header"><div class="container">
+<div class="logo"><span>Jhon Tech IPTV</span></div>
+<nav class="menu"><a href="index.html">Início</a></nav>
+</div></header>
 
-    <!-- LOGO -->
-    <div class="logo">
-      <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <rect x="10" y="18" width="80" height="64" rx="20" fill="#00e5ff"/>
-        <circle cx="40" cy="50" r="6" fill="#050510"/>
-        <circle cx="60" cy="50" r="6" fill="#050510"/>
-        <rect x="42" y="64" width="16" height="4" rx="2" fill="#050510"/>
-      </svg>
-      <span>Jhon Tech IPTV</span>
-    </div>
+<section class="hero"><h1>💻 PC / Notebook</h1></section>
 
-    <!-- MENU -->
-    <nav class="menu">
-      <a href="index.html">Início</a>
-      <a href="android.html">Android</a>
-      <a href="iphone.html">iPhone</a>
-      <a href="https://wa.me/5598981797139" target="_blank" class="btn">WhatsApp</a>
-    </nav>
-
-  </div>
-</header>
-
-<!-- HERO -->
-<section class="hero">
-  <h1>Central Profissional de IPTV</h1>
-  <p>
-    Tutoriais oficiais e suporte profissional para clientes
-    e revendedores da Jhon Tech.
-  </p>
-</section>
-
-<!-- CARDS -->
 <section class="cards">
+<div class="card">
+<h3>VLC Media Player</h3>
+<p>Mídia → Abrir URL → Colar link M3U → Reproduzir</p>
+</div>
 
-  <div class="card">
-    <h3>📱 Android</h3>
-    <p>IPTV Smarters e XCIPTV</p>
-    <a href="android.html" class="btn">Ver tutorial</a>
-  </div>
-
-  <div class="card">
-    <h3>🍎 iPhone (iOS)</h3>
-    <p>IPTV Smarters e GSE Smart IPTV</p>
-    <a href="iphone.html" class="btn">Ver tutorial</a>
-  </div>
-
-  <div class="card">
-    <h3>🤝 Revendedores</h3>
-    <p>Ganhos recorrentes e suporte dedicado</p>
-    <a href="https://wa.me/5598981797139" target="_blank" class="btn">
-      Quero revender
-    </a>
-  </div>
-
+<div class="card">
+<h3>Web Player</h3>
+<p>Acessar link fornecido → Login → Assistir</p>
+</div>
 </section>
 
-<!-- FOOTER -->
-<footer>
-  © 2026 Jhon Tech IPTV · Todos os direitos reservados
-</footer>
-
+<footer>© 2026 Jhon Tech IPTV</footer>
 </body>
 </html>
